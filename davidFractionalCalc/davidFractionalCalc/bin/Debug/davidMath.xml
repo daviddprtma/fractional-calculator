@@ -1,0 +1,280 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>davidMath</name>
+    </assembly>
+    <members>
+        <member name="M:davidMath.davidFractionalNumber.Gcd(System.Int32,System.Int32)">
+            <summary>
+            Methods Gcd ini digunakan untuk menyederhanakan 2 bil pecahan menjadi lebih sederhana
+            </summary>
+            <param name="bil1">Ini merupakan parameter bilangan pertama dari sebuah pecahan pembilang</param>
+            <param name="bil2">Ini merupakan parameter bilangan kedua dari sebuah pecahan penyebut</param>
+            <returns>Yang dikembalikan adalah hasil dari penyederhanaan bil 1 dan bil 2</returns>
+        </member>
+        <member name="M:davidMath.davidFractionalNumber.Tambah(davidMath.davidFractionalNumber)">
+            <summary>
+            Method Tambah digunakan untuk menjumlahkan 2 buah bil pecahan
+            dari class davidFractionalNumber
+            </summary>
+            <param name="fract">Parameter dari davidFractNumber bernama fract</param>
+            <returns>hasil yang dikembalikan berupa return hasil</returns>
+        </member>
+        <member name="M:davidMath.davidFractionalNumber.Kurang(davidMath.davidFractionalNumber)">
+            <summary>
+            Method Kurang digunakan untuk mengurangi 2 buah bil pecahan
+            dari class davidFractionalNumber
+            </summary>
+            <param name="fract"></param>
+            <returns></returns>
+        </member>
+        <member name="M:davidMath.davidFractionalNumber.Kali(davidMath.davidFractionalNumber)">
+            <summary>
+            Method Kali digunakan untuk mengalikan 2 buah bil pecahan
+            dari class davidFractionalNumber
+            </summary>
+            <param name="fract"></param>
+            <returns></returns>
+        </member>
+        <member name="M:davidMath.davidFractionalNumber.Bagi(davidMath.davidFractionalNumber)">
+            <summary>
+            Method Bagi digunakan untuk membagi 2 buah bil pecahan
+            dari class davidFractionalNumber
+            </summary>
+            <param name="fract"></param>
+            <returns></returns>
+        </member>
+        <member name="M:davidMath.davidFractionalNumber.Kali(System.Int32)">
+            <summary>
+            Method overloading Kali untuk mengoverloadkan sebuah bil pecahan 
+            yg ada di class davidFractionalNumber
+            </summary>
+            <param name="bil"></param>
+            <returns></returns>
+        </member>
+        <member name="M:davidMath.davidFractionalNumber.Bagi(System.Int32)">
+            <summary>
+            Method overloading Bagi untuk mengoverloadkan sebuah bil pecahan 
+            yg ada di class davidFractionalNumber
+            </summary>
+            <param name="bilangan"></param>
+            <returns></returns>
+        </member>
+        <member name="M:davidMath.davidFractionalNumber.Tambah(System.Int32)">
+            <summary>
+            Method overloading Tambah untuk mengoverloadkan sebuah bil pecahan 
+            yg ada di class davidFractionalNumber
+            </summary>
+            <param name="bilangan"></param>
+            <returns></returns>
+        </member>
+        <member name="M:davidMath.davidFractionalNumber.Kurang(System.Int32)">
+            <summary>
+            Method overloading Kurang untuk mengoverloadkan sebuah bil pecahan 
+            yg ada di class davidFractionalNumber
+            </summary>
+            <param name="bilangan"></param>
+            <returns></returns>
+        </member>
+        <member name="M:davidMath.davidFractionalNumber.Convert">
+            <summary>
+            Method convert integer ini utk mengkonversikan bilangan ke integer
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:davidMath.davidFractionalNumber.Convert(System.Int32)">
+            <summary>
+            Method Convert double untuk mengkonversikan bilangan menjadi double
+            </summary>
+            <param name="n"></param>
+            <returns></returns>
+        </member>
+        <member name="M:davidMath.davidFractionalNumber.IsEqual(davidMath.davidFractionalNumber)">
+            <summary>
+            Method isEqual digunakan untuk melihat apakah method ini memiliki method yg sama dengan method yg lain
+            </summary>
+            <param name="fract1"></param>
+            <returns></returns>
+        </member>
+        <member name="M:davidMath.davidFractionalNumber.op_Multiply(davidMath.davidFractionalNumber,davidMath.davidFractionalNumber)">
+            <summary>
+            Methods overloading operator kali digunakan untuk mengalikan 2 fractional bilangan dari davidFractionalNumber
+            </summary>
+            <param name="fract1"></param>
+            <param name="fract2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:davidMath.davidFractionalNumber.op_Multiply(davidMath.davidFractionalNumber,System.Int32)">
+            <summary>
+            Methods overloading operator kali digunakan untuk mengalikan fractional bilangan  dengan bilangan integer dari davidFractionalNumber
+            </summary>
+            <param name="fract1"></param>
+            <param name="bilangan"></param>
+            <returns></returns>
+        </member>
+        <member name="M:davidMath.davidFractionalNumber.op_Division(davidMath.davidFractionalNumber,davidMath.davidFractionalNumber)">
+            <summary>
+            Method overloading bagi ini 
+            </summary>Methods overloading operator kali digunakan untuk membagi 2 fractional bilangan dari davidFractionalNumber
+            <param name="fract1"></param>
+            <param name="fract2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:davidMath.davidFractionalNumber.op_Division(davidMath.davidFractionalNumber,System.Int32)">
+            <summary>
+            Methods overloading operator kali digunakan untuk membagi 2 fractional bilangan dari davidFractionalNumber
+            </summary>
+            <param name="fract1"></param>
+            <param name="bilangan"></param>
+            <returns></returns>
+        </member>
+        <member name="M:davidMath.davidFractionalNumber.op_Addition(davidMath.davidFractionalNumber,davidMath.davidFractionalNumber)">
+            <summary>
+            Methods overloading operator tambah digunakan untuk menambahkan  2 fractional bilangan dari davidFractionalNumber
+            </summary>
+            <param name="fract1"></param>
+            <param name="fract2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:davidMath.davidFractionalNumber.op_Addition(davidMath.davidFractionalNumber,System.Int32)">
+            <summary>
+            Methods overloading operator tambah digunakan untuk menambahkan fractional bilangan dgn bil integer dari davidFractionalNumber
+            </summary>
+            <param name="fract1"></param>
+            <param name="bilangan"></param>
+            <returns></returns>
+        </member>
+        <member name="M:davidMath.davidFractionalNumber.op_Subtraction(davidMath.davidFractionalNumber,davidMath.davidFractionalNumber)">
+            <summary>
+            Methods overloading operator kurang digunakan untuk mengurangkan 2 fractional bilangan dari davidFractionalNumber
+            </summary>
+            <param name="fract1"></param>
+            <param name="fract2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:davidMath.davidFractionalNumber.op_Subtraction(davidMath.davidFractionalNumber,System.Int32)">
+            <summary>
+            Methods overloading operator kurang digunakan untuk mengurangi fractional bilangan dgn bilangan integer dari davidFractionalNumber
+            </summary>
+            <param name="fract1"></param>
+            <param name="bilangan"></param>
+            <returns></returns>
+        </member>
+        <member name="M:davidMath.davidFractionalNumber.op_Increment(davidMath.davidFractionalNumber)">
+            <summary>
+            Methods overloading operator unary tambah digunakan untuk menambahkan 2 fractional bilangan dari davidFractionalNumber
+            </summary>
+            <param name="fractNum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:davidMath.davidFractionalNumber.op_Decrement(davidMath.davidFractionalNumber)">
+            <summary>
+            Methods overloading operator unary kurang digunakan untuk mengurangi 2 fractional bilangan dari davidFractionalNumber
+            </summary>
+            <param name="fractNum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:davidMath.davidFractionalNumber.op_Equality(davidMath.davidFractionalNumber,davidMath.davidFractionalNumber)">
+            <summary>
+            Methods overloading operator logical sama dengan digunakan untuk menyamakan 2 fractional bilangan dari davidFractionalNumber
+            </summary>
+            <param name="fract1"></param>
+            <param name="fract2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:davidMath.davidFractionalNumber.op_Inequality(davidMath.davidFractionalNumber,davidMath.davidFractionalNumber)">
+            <summary>
+            Methods overloading operator logical tidak sama dengan digunakan untuk mencari 2 fractional bilangan yang tidak sama dari davidFractionalNumber
+            </summary>
+            <param name="fract1"></param>
+            <param name="fract2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:davidMath.davidFractionalNumber.op_Equality(davidMath.davidFractionalNumber,System.Int32)">
+            <summary>
+            Methods overloading operator logical sama dengan digunakan untuk menyamakan fractional dengan bilangan integer davidFractionalNumber
+            </summary>
+            <param name="fract1"></param>
+            <param name="bilangan"></param>
+            <returns></returns>
+        </member>
+        <member name="M:davidMath.davidFractionalNumber.op_Inequality(davidMath.davidFractionalNumber,System.Int32)">
+            <summary>
+            Methods overloading operator logical tidak sama dengan digunakan untuk mencari fractional dengan bilangan integer yang tidak sama didalam davidFractionalNumber
+            </summary>
+            <param name="fract1"></param>
+            <param name="bilangan"></param>
+            <returns></returns>
+        </member>
+        <member name="M:davidMath.davidFractionalNumber.op_GreaterThan(davidMath.davidFractionalNumber,System.Int32)">
+            <summary>
+            Methods overloading operator logical lebih besar digunakan untuk mencari fractional yang lebih besar dari  bilangan integer dari davidFractionalNumber
+            </summary>
+            <param name="fract1"></param>
+            <param name="bilangan"></param>
+            <returns></returns>
+        </member>
+        <member name="M:davidMath.davidFractionalNumber.op_LessThan(davidMath.davidFractionalNumber,System.Int32)">
+            <summary>
+            Methods overloading operator logical lebih kecil digunakan untuk mencari fractional yang lebih kecil dari bilangan integer yang terdapat di davidFractionalNumber
+            </summary>
+            <param name="fract1"></param>
+            <param name="bilangan"></param>
+            <returns></returns>
+        </member>
+        <member name="M:davidMath.davidFractionalNumber.op_GreaterThanOrEqual(davidMath.davidFractionalNumber,System.Int32)">
+            <summary>
+            Methods overloading operator logical lebih besar sama dengan digunakan untuk mencari fractional yang lebih besar sama dengan bilangan integer davidFractionalNumber
+            </summary>
+            <param name="fract1"></param>
+            <param name="bilangan"></param>
+            <returns></returns>
+        </member>
+        <member name="M:davidMath.davidFractionalNumber.op_LessThanOrEqual(davidMath.davidFractionalNumber,System.Int32)">
+            <summary>
+            Methods overloading operator logical lebih kecil sama dengan digunakan untuk mencari  fractional lebih kecil sama dengan bilangan integer davidFractionalNumber
+            </summary>
+            <param name="fract1"></param>
+            <param name="bilangan"></param>
+            <returns></returns>
+        </member>
+        <member name="M:davidMath.davidFractionalNumber.ToDouble">
+            <summary>
+            Method ToDouble ini digunakan untuk mengkonversi angka jika terdapat angka koma di belakangnya
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:davidMath.davidFractionalNumber.op_GreaterThan(davidMath.davidFractionalNumber,davidMath.davidFractionalNumber)">
+            <summary>
+            Methods overloading operator logical lebih besar digunakan untuk mencari fractional 1 yang lebih besar dari fractional 2 yang terdapat di davidFractionalNumber
+            </summary>
+            <param name="fract1"></param>
+            <param name="fract2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:davidMath.davidFractionalNumber.op_LessThan(davidMath.davidFractionalNumber,davidMath.davidFractionalNumber)">
+            <summary>
+            Methods overloading operator logical lebih kecil digunakan untuk mencari fractional 1 yang lebih kecil dari fractional 2 yang terdapat di davidFractionalNumber
+            </summary>
+            <param name="fract1"></param>
+            <param name="fract2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:davidMath.davidFractionalNumber.op_GreaterThanOrEqual(davidMath.davidFractionalNumber,davidMath.davidFractionalNumber)">
+            <summary>
+            Methods overloading operator logical lebih besar sama dengan  digunakan untuk mencari fractional 1 yang lebih besar / sama dengan fractional 2 yang terdapat di davidFractionalNumber
+            </summary>
+            <param name="fract1"></param>
+            <param name="fract2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:davidMath.davidFractionalNumber.op_LessThanOrEqual(davidMath.davidFractionalNumber,davidMath.davidFractionalNumber)">
+            <summary>
+            Methods overloading operator logical lebih kecil sama dengan  digunakan untuk mencari fractional 1 yang lebih kecil / sama dengan fractional 2 yang terdapat di davidFractionalNumber
+            </summary>
+            <param name="fract1"></param>
+            <param name="fract2"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
